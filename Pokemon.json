@@ -198,14 +198,14 @@
     "name": "Charizard",
     "type": [
         "Fire",
-        ""
+        "Flying"
     ],
     "base": {
         "HP": 78,
         "Attack": 84,
         "Defense": 78,
         "Special Attack": 109,
-        "Special Defense": 85,
+        "Special Defense": 85
     },
     "abilities": [
         "Blaze"
@@ -226,6 +226,126 @@
         [44, "Slash"],
         [54, "Dragon Rage"],
         [64, "Fire Spin"],
+        [99, "Blast Burn"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "False",
+    "evolutionLevel": -1,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 7,
+    "name": "Squirtle",
+    "type": [
+        "Water",
+        ""
+    ],
+    "base": {
+        "HP": 44,
+        "Attack": 48,
+        "Defense": 65,
+        "Special Attack": 50,
+        "Special Defense": 64
+    },
+    "abilities": [
+        "Torrent"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [4, "Tail Whip"],
+        [7, "Bubble"],
+        [10, "Withdraw"],
+        [13, "Water Gun"],
+        [18, "Bite"],
+        [23, "Rapid Spin"],
+        [28, "Protect"],
+        [33, "Rain Dance"],
+        [40, "Skull Bash"],
+        [47, "Hydro Pump"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 16,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 8,
+    "name": "Wartortle",
+    "type": [
+        "Water",
+        ""
+    ],
+    "base": {
+        "HP": 59,
+        "Attack": 63,
+        "Defense": 80,
+        "Special Attack": 65,
+        "Special Defense": 80
+    },
+    "abilities": [
+        "Torrent"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [0, "Tail Whip"],
+        [0, "Bubble"],
+        [4, "Tail Whip"],
+        [7, "Bubble"],
+        [10, "Withdraw"],
+        [13, "Water Gun"],
+        [19, "Bite"],
+        [25, "Rapid Spin"],
+        [31, "Protect"],
+        [37, "Rain Dance"],
+        [45, "Skull Bash"],
+        [53, "Hydro Pump"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 36,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 9,
+    "name": "Blastoise",
+    "type": [
+        "Water",
+        ""
+    ],
+    "base": {
+        "HP": 79,
+        "Attack": 83,
+        "Defense": 100,
+        "Special Attack": 85,
+        "Special Defense": 105
+    },
+    "abilities": [
+        "Torrent"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [0, "Tail Whip"],
+        [0, "Bubble"],
+        [0, "Withdraw"],
+        [4, "Tail Whip"],
+        [7, "Bubble"],
+        [10, "Withdraw"],
+        [13, "Water Gun"],
+        [19, "Bite"],
+        [25, "Rapid Spin"],
+        [31, "Protect"],
+        [42, "Rain Dance"],
+        [55, "Skull Bash"],
+        [68, "Hydro Pump"],
         [99, "Blast Burn"]
     ],
     "tm": [
