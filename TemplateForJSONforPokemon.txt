@@ -1,0 +1,67 @@
+{
+    "id": ,
+    "name": "",
+    "type": [
+    ],
+    "base": {
+        "HP": ,
+        "Attack": ,
+        "Defense": ,
+        "Special Attack": ,
+        "Special Defense": 
+    },
+    "abilities": [
+    ],
+    "size": ,
+    "levelUp": [
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "",
+    "evolutionLevel": ,
+    "needItemToEvolve": "",
+    "whatItem": ""
+}
+
+Example(TM leave empty for now)
+
+{
+    "id": 1,
+    "name": "Bulbasaur",
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "base": {
+        "HP": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "Special Attack": 65,
+        "Special Defense": 65
+    },
+    "abilities": [
+        "Overgrow"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [4, "Growl"],
+        [7, "Leech Seed"],
+        [10, "Vine Whip"],
+        [15, "Posionpowder"],
+        [15, "Sleep Poweder"],
+        [20, "Razor Leaf"],
+        [25, "Sweet Scent"],
+        [32, "Growth"],
+        [39, "Synthesis"],
+        [46, "Solarbeam"]
+    ],
+    "tm": [
+        6,
+        9
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 16,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+}

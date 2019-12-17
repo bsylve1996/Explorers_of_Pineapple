@@ -1,0 +1,238 @@
+[{
+    "id": 1,
+    "name": "Bulbasaur",
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "base": {
+        "HP": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "Special Attack": 65,
+        "Special Defense": 65
+    },
+    "abilities": [
+        "Overgrow"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [4, "Growl"],
+        [7, "Leech Seed"],
+        [10, "Vine Whip"],
+        [15, "Posionpowder"],
+        [15, "Sleep Poweder"],
+        [20, "Razor Leaf"],
+        [25, "Sweet Scent"],
+        [32, "Growth"],
+        [39, "Synthesis"],
+        [46, "Solarbeam"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 16,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 2,
+    "name": "Ivysaur",
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "base": {
+        "HP": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "Special Attack": 80,
+        "Special Defense": 80
+    },
+    "abilities": [
+        "Overgrow"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [0, "Growl"],
+        [0, "Leech Seed"],
+        [4, "Growl"],
+        [7, "Leech Seed"],
+        [10, "Vine Whip"],
+        [15, "Posionpowder"],
+        [15, "Sleep Poweder"],
+        [22, "Razor Leaf"],
+        [29, "Sweet Scent"],
+        [38, "Growth"],
+        [47, "Synthesis"],
+        [56, "Solarbeam"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 32,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 3,
+    "name": "Venasaur",
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "base": {
+        "HP": 80,
+        "Attack": 82,
+        "Defense": 83,
+        "Special Attack": 100,
+        "Special Defense": 100
+    },
+    "abilities": [
+        "Overgrow"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Tackle"],
+        [0, "Growl"],
+        [0, "Leech Seed"],
+        [0, "Vine Whip"],
+        [4, "Growl"],
+        [7, "Leech Seed"],
+        [10, "Vine Whip"],
+        [15, "Posionpowder"],
+        [15, "Sleep Poweder"],
+        [22, "Razor Leaf"],
+        [29, "Sweet Scent"],
+        [41, "Growth"],
+        [53, "Synthesis"],
+        [65, "Solarbeam"],
+        [99, "Frenzy Plant"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "False",
+    "evolutionLevel": -1,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 4,
+    "name": "Charmander",
+    "type": [
+        "Fire",
+        ""
+    ],
+    "base": {
+        "HP": 39,
+        "Attack": 52,
+        "Defense": 43,
+        "Special Attack": 60,
+        "Special Defense": 50
+    },
+    "abilities": [
+        "Blaze"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Scratch"],
+        [4, "Growl"],
+        [7, "Ember"],
+        [13, "Metal Claw"],
+        [19, "Smokescreen"],
+        [25, "Scary Face"],
+        [31, "Flamethrower"],
+        [37, "Slash"],
+        [43, "Dragon Rage"],
+        [49, "Fire Spin"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 16,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 5,
+    "name": "Charmeleon",
+    "type": [
+        "Fire",
+        ""
+    ],
+    "base": {
+        "HP": 58,
+        "Attack": 64,
+        "Defense": 58,
+        "Special Attack": 80,
+        "Special Defense": 65
+    },
+    "abilities": [
+        "Blaze"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Scratch"],
+        [0, "Growl"],
+        [0, "Ember"],
+        [7, "Ember"],
+        [13, "Metal Claw"],
+        [20, "Smokescreen"],
+        [27, "Scary Face"],
+        [34, "Flamethrower"],
+        [41, "Slash"],
+        [48, "Dragon Rage"],
+        [55, "Fire Spin"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "True",
+    "evolutionLevel": 36,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+},
+{
+    "id": 6,
+    "name": "Charizard",
+    "type": [
+        "Fire",
+        ""
+    ],
+    "base": {
+        "HP": 78,
+        "Attack": 84,
+        "Defense": 78,
+        "Special Attack": 109,
+        "Special Defense": 85,
+    },
+    "abilities": [
+        "Blaze"
+    ],
+    "size": 1,
+    "levelUp": [
+        [0, "Heat Wave"],
+        [0, "Scratch"],
+        [0, "Growl"],
+        [0, "Ember"],
+        [0, "Metal Claw"],
+        [7, "Ember"],
+        [13, "Metal Claw"],
+        [20, "Smokescreen"],
+        [27, "Scary Face"],
+        [34, "Flamethrower"],
+        [36, "Wing Attack"],
+        [44, "Slash"],
+        [54, "Dragon Rage"],
+        [64, "Fire Spin"],
+        [99, "Blast Burn"]
+    ],
+    "tm": [
+    ],
+    "hasEvolution": "False",
+    "evolutionLevel": -1,
+    "needItemToEvolve": "False",
+    "whatItem": ""
+}
+]
