@@ -1,67 +1,275 @@
-{
+{   
     "id": ,
     "name": "",
-    "type": [
-    ],
-    "base": {
-        "HP": ,
-        "Attack": ,
-        "Defense": ,
-        "Special Attack": ,
-        "Special Defense": 
-    },
-    "abilities": [
-    ],
-    "size": ,
-    "levelUp": [
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "",
-    "evolutionLevel": ,
-    "needItemToEvolve": "",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "",
+            ""
+        ],
+        "base": {
+            "HP": ,
+            "Attack": ,
+            "Defense": ,
+            "Special Attack": ,
+            "Special Defense": ,
+            "Speed": 
+        },
+        "abilities": [
+            "",
+            ""
+        ],
+        "size": 1,
+        "levelUp": [
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""],
+            [, ""]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "",
+        "evolutions":[],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 }
 
-Example(TM leave empty for now)
 
-{
+Example 1(TM leave empty for now)
+
+{   
     "id": 1,
     "name": "Bulbasaur",
-    "type": [
-        "Grass",
-        "Poison"
-    ],
-    "base": {
-        "HP": 45,
-        "Attack": 49,
-        "Defense": 49,
-        "Special Attack": 65,
-        "Special Defense": 65
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 49,
+            "Defense": 49,
+            "Special Attack": 65,
+            "Special Defense": 65,
+            "Speed": 45
+        },
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Growl"],
+            [3, "Vine Whip"],
+            [6, "Growth"],
+            [9, "Leech Seed"],
+            [12, "Razor Leaf"],
+            [15, "Posionpowder"],
+            [15, "Sleep Poweder"],
+            [18, "Seed Bomb"],
+            [21, "Take Down"],
+            [24, "Sweet Scent"],
+            [27, "Synthesis"],
+            [30, "Worry Seed"],
+            [33, "Double-Edge"],
+            [36, "Solarbeam"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Ivysaur", 
+                "level": 16
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+}
+
+
+Example 2(TM leave empty for now)(Mega evolution)
+
+
+{
+    "id": 9,
+    "name": "Blastoise",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Water",
+            ""
+        ],
+        "base": {
+            "HP": 79,
+            "Attack": 83,
+            "Defense": 100,
+            "Special Attack": 85,
+            "Special Defense": 105,
+            "Speed": 78
+        },
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Flash Cannon"],
+            [1, "Flash Cannon"],
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [1, "Water Gun"],
+            [1, "Withdraw"],
+            [9, "Rapid Spin"],
+            [12, "Bite"],
+            [15, "Water Pulse"],
+            [20, "Protect"],
+            [25, "Rain Dance"],
+            [30, "Aqua Tail"],
+            [35, "Shell Smash"],
+            [42, "Iron Defense"],
+            [49, "Hydro Pump"],
+            [56, "Skull Bash"],
+            [99, "Hydro Cannon"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions": [],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Blastoise",
+                "item": "Blastoisinite",
+                "type": [
+                    "Water",
+                    ""
+                ],
+                "ability": "Mega Launcher",
+                "HP": 79,
+                "Attack": 103,
+                "Defense": 120,
+                "Special Attack": 135,
+                "Special Defense": 115,
+                "Speed": 78
+            }
+        ]
+    }
+}
+
+Example 3(Multi form)
+{   
+    "id": 19,
+    "name": "Rattata",
+    "numberOfForms": 2,
+    "Kantonian": {
+        "type": [
+            "Normal",
+            ""
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 56,
+            "Defense": 35,
+            "Special Attack": 25,
+            "Special Defense": 35,
+            "Speed": 72
+        },
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [22, "Crunch"],
+            [25, "Sucker Punch"],
+            [28, "Super Fang"],
+            [31, "Double-Edge"],
+            [34, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp-Multi", 
+                "evolutionTo": "Raticate", 
+                "level": 20
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
     },
-    "abilities": [
-        "Overgrow"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [4, "Growl"],
-        [7, "Leech Seed"],
-        [10, "Vine Whip"],
-        [15, "Posionpowder"],
-        [15, "Sleep Poweder"],
-        [20, "Razor Leaf"],
-        [25, "Sweet Scent"],
-        [32, "Growth"],
-        [39, "Synthesis"],
-        [46, "Solarbeam"]
-    ],
-    "tm": [
-        6,
-        9
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 16,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "Alolan": {
+        "type": [
+            "Dark",
+            "Normal"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 56,
+            "Defense": 35,
+            "Special Attack": 25,
+            "Special Defense": 35,
+            "Speed": 72
+        },
+        "abilities": [
+            "Gluttony",
+            "Hustle",
+            "Thick Fat"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [22, "Crunch"],
+            [25, "Sucker Punch"],
+            [28, "Super Fang"],
+            [31, "Double-Edge"],
+            [34, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp-Multi", 
+                "evolutionTo": "Raticate", 
+                "level": 20
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 }

@@ -1,358 +1,1201 @@
 [{
     "id": 1,
     "name": "Bulbasaur",
-    "type": [
-        "Grass",
-        "Poison"
-    ],
-    "base": {
-        "HP": 45,
-        "Attack": 49,
-        "Defense": 49,
-        "Special Attack": 65,
-        "Special Defense": 65
-    },
-    "abilities": [
-        "Overgrow"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [4, "Growl"],
-        [7, "Leech Seed"],
-        [10, "Vine Whip"],
-        [15, "Posionpowder"],
-        [15, "Sleep Poweder"],
-        [20, "Razor Leaf"],
-        [25, "Sweet Scent"],
-        [32, "Growth"],
-        [39, "Synthesis"],
-        [46, "Solarbeam"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 16,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 49,
+            "Defense": 49,
+            "Special Attack": 65,
+            "Special Defense": 65,
+            "Speed": 45
+        },
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Growl"],
+            [3, "Vine Whip"],
+            [6, "Growth"],
+            [9, "Leech Seed"],
+            [12, "Razor Leaf"],
+            [15, "Posionpowder"],
+            [15, "Sleep Poweder"],
+            [18, "Seed Bomb"],
+            [21, "Take Down"],
+            [24, "Sweet Scent"],
+            [27, "Synthesis"],
+            [30, "Worry Seed"],
+            [33, "Double-Edge"],
+            [36, "Solarbeam"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Ivysaur", 
+                "level": 16
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 2,
     "name": "Ivysaur",
-    "type": [
-        "Grass",
-        "Poison"
-    ],
-    "base": {
-        "HP": 60,
-        "Attack": 62,
-        "Defense": 63,
-        "Special Attack": 80,
-        "Special Defense": 80
-    },
-    "abilities": [
-        "Overgrow"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [0, "Growl"],
-        [0, "Leech Seed"],
-        [4, "Growl"],
-        [7, "Leech Seed"],
-        [10, "Vine Whip"],
-        [15, "Posionpowder"],
-        [15, "Sleep Poweder"],
-        [22, "Razor Leaf"],
-        [29, "Sweet Scent"],
-        [38, "Growth"],
-        [47, "Synthesis"],
-        [56, "Solarbeam"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 32,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 62,
+            "Defense": 63,
+            "Special Attack": 80,
+            "Special Defense": 80,
+            "Speed": 60
+        },
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Growl"],
+            [1, "Leech Seed"],
+            [1, "Vine Whip"],
+            [9, "Leech Seed"],
+            [12, "Razor Leaf"],
+            [15, "Posionpowder"],
+            [15, "Sleep Poweder"],
+            [20, "Seed Bomb"],
+            [25, "Take Down"],
+            [30, "Sweet Scent"],
+            [35, "Synthesis"],
+            [40, "Worry Seed"],
+            [45, "Double-Edge"],
+            [50, "Solarbeam"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Venasaur", 
+                "level": 32
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 3,
     "name": "Venasaur",
-    "type": [
-        "Grass",
-        "Poison"
-    ],
-    "base": {
-        "HP": 80,
-        "Attack": 82,
-        "Defense": 83,
-        "Special Attack": 100,
-        "Special Defense": 100
-    },
-    "abilities": [
-        "Overgrow"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [0, "Growl"],
-        [0, "Leech Seed"],
-        [0, "Vine Whip"],
-        [4, "Growl"],
-        [7, "Leech Seed"],
-        [10, "Vine Whip"],
-        [15, "Posionpowder"],
-        [15, "Sleep Poweder"],
-        [22, "Razor Leaf"],
-        [29, "Sweet Scent"],
-        [41, "Growth"],
-        [53, "Synthesis"],
-        [65, "Solarbeam"],
-        [99, "Frenzy Plant"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "False",
-    "evolutionLevel": -1,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 82,
+            "Defense": 83,
+            "Special Attack": 100,
+            "Special Defense": 100,
+            "Speed": 80
+        },
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Petal Blizzard"],
+            [1, "Petal Blizzard"],
+            [1, "Petal Dance"],
+            [1, "Tackle"],
+            [1, "Growl"],
+            [1, "Vine Whip"],
+            [1, "Growth"],
+            [9, "Leech Seed"],
+            [12, "Razor Leaf"],
+            [15, "Posionpowder"],
+            [15, "Sleep Poweder"],
+            [20, "Seed Bomb"],
+            [25, "Take Down"],
+            [30, "Sweet Scent"],
+            [37, "Synthesis"],
+            [44, "Worry Seed"],
+            [51, "Double-Edge"],
+            [58, "Solarbeam"],
+            [99, "Frenzy Plant"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions": [],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Venasaur",
+                "item": "Venusaurite",
+                "type": [
+                    "Grass",
+                    "Poison"
+                ],
+                "ability": "Thick Fat",
+                "HP": 80,
+                "Attack": 100,
+                "Defense": 123,
+                "Special Attack": 122,
+                "Special Defense": 120,
+                "Speed": 80
+            }
+        ]
+    }
 },
+
+
 {
     "id": 4,
     "name": "Charmander",
-    "type": [
-        "Fire",
-        ""
-    ],
-    "base": {
-        "HP": 39,
-        "Attack": 52,
-        "Defense": 43,
-        "Special Attack": 60,
-        "Special Defense": 50
-    },
-    "abilities": [
-        "Blaze"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Scratch"],
-        [4, "Growl"],
-        [7, "Ember"],
-        [13, "Metal Claw"],
-        [19, "Smokescreen"],
-        [25, "Scary Face"],
-        [31, "Flamethrower"],
-        [37, "Slash"],
-        [43, "Dragon Rage"],
-        [49, "Fire Spin"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 16,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Fire",
+            ""
+        ],
+        "base": {
+            "HP": 39,
+            "Attack": 52,
+            "Defense": 43,
+            "Special Attack": 60,
+            "Special Defense": 50,
+            "Speed": 65
+        },
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Scratch"],
+            [1, "Growl"],
+            [4, "Ember"],
+            [8, "Smokescreen"],
+            [12, "Dragon Breath"],
+            [17, "Fire Fang"],
+            [20, "Slash"],
+            [24, "Flamethrower"],
+            [28, "Scary Face"],
+            [32, "Fire Spin"],
+            [36, "Inferno"],
+            [40, "Flare Blitz"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Charmeleon", 
+                "level": 16
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 5,
     "name": "Charmeleon",
-    "type": [
-        "Fire",
-        ""
-    ],
-    "base": {
-        "HP": 58,
-        "Attack": 64,
-        "Defense": 58,
-        "Special Attack": 80,
-        "Special Defense": 65
-    },
-    "abilities": [
-        "Blaze"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Scratch"],
-        [0, "Growl"],
-        [0, "Ember"],
-        [7, "Ember"],
-        [13, "Metal Claw"],
-        [20, "Smokescreen"],
-        [27, "Scary Face"],
-        [34, "Flamethrower"],
-        [41, "Slash"],
-        [48, "Dragon Rage"],
-        [55, "Fire Spin"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 36,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Fire",
+            ""
+        ],
+        "base": {
+            "HP": 58,
+            "Attack": 64,
+            "Defense": 58,
+            "Special Attack": 80,
+            "Special Defense": 65,
+            "Speed": 80
+        },
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Scratch"],
+            [1, "Growl"],
+            [1, "Ember"],
+            [1, "Smokescreen"],
+            [12, "Dragon Breath"],
+            [19, "Fire Fang"],
+            [24, "Slash"],
+            [30, "Flamethrower"],
+            [37, "Scary Face"],
+            [42, "Fire Spin"],
+            [48, "Inferno"],
+            [54, "Flare Blitz"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Charizard", 
+                "level": 36
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 6,
     "name": "Charizard",
-    "type": [
-        "Fire",
-        "Flying"
-    ],
-    "base": {
-        "HP": 78,
-        "Attack": 84,
-        "Defense": 78,
-        "Special Attack": 109,
-        "Special Defense": 85
-    },
-    "abilities": [
-        "Blaze"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Heat Wave"],
-        [0, "Scratch"],
-        [0, "Growl"],
-        [0, "Ember"],
-        [0, "Metal Claw"],
-        [7, "Ember"],
-        [13, "Metal Claw"],
-        [20, "Smokescreen"],
-        [27, "Scary Face"],
-        [34, "Flamethrower"],
-        [36, "Wing Attack"],
-        [44, "Slash"],
-        [54, "Dragon Rage"],
-        [64, "Fire Spin"],
-        [99, "Blast Burn"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "False",
-    "evolutionLevel": -1,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "base": {
+            "HP": 78,
+            "Attack": 84,
+            "Defense": 78,
+            "Special Attack": 109,
+            "Special Defense": 85,
+            "Speed": 100
+        },
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Air Slash"],
+            [1, "Air Slash"],
+            [1, "Dragon Claw"],
+            [1, "Heat Wave"],
+            [1, "Scratch"],
+            [1, "Growl"],
+            [1, "Ember"],
+            [1, "Smokescreen"],
+            [12, "Dragon Breath"],
+            [19, "Fire Fang"],
+            [24, "Slash"],
+            [30, "Flamethrower"],
+            [39, "Scary Face"],
+            [46, "Fire Spin"],
+            [54, "Inferno"],
+            [62, "Flare Blitz"],
+            [99, "Blast Burn"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions": [],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Chairzard X",
+                "item": "Charizardite X",
+                "type": [
+                    "Fire",
+                    "Dragon"
+                ],
+                "ability": "Tough Claws",
+                "HP": 78,
+                "Attack": 130,
+                "Defense": 111,
+                "Special Attack": 130,
+                "Special Defense": 85,
+                "Speed": 100
+            },
+            {
+                "name": "Mega Chairzard Y",
+                "item": "Charizardite Y",
+                "type": [
+                    "Fire",
+                    "Flying"
+                ],
+                "ability": "Drought",
+                "HP": 78,
+                "Attack": 104,
+                "Defense": 78,
+                "Special Attack": 159,
+                "Special Defense": 115,
+                "Speed": 100
+            }
+        ]
+    }
 },
+
+
 {
     "id": 7,
     "name": "Squirtle",
-    "type": [
-        "Water",
-        ""
-    ],
-    "base": {
-        "HP": 44,
-        "Attack": 48,
-        "Defense": 65,
-        "Special Attack": 50,
-        "Special Defense": 64
-    },
-    "abilities": [
-        "Torrent"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [4, "Tail Whip"],
-        [7, "Bubble"],
-        [10, "Withdraw"],
-        [13, "Water Gun"],
-        [18, "Bite"],
-        [23, "Rapid Spin"],
-        [28, "Protect"],
-        [33, "Rain Dance"],
-        [40, "Skull Bash"],
-        [47, "Hydro Pump"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 16,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal":{
+        "type": [
+            "Water",
+            ""
+        ],
+        "base": {
+            "HP": 44,
+            "Attack": 48,
+            "Defense": 65,
+            "Special Attack": 50,
+            "Special Defense": 64,
+            "Speed": 43
+        },
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [3, "Water Gun"],
+            [6, "Withdraw"],
+            [9, "Rapid Spin"],
+            [12, "Bite"],
+            [15, "Water Pulse"],
+            [18, "Protect"],
+            [21, "Rain Dance"],
+            [24, "Aqua Tail"],
+            [27, "Shell Smash"],
+            [30, "Iron Defense"],
+            [43, "Hydro Pump"],
+            [36, "Skull Bash"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Wartortle", 
+                "level": 16
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 8,
     "name": "Wartortle",
-    "type": [
-        "Water",
-        ""
-    ],
-    "base": {
-        "HP": 59,
-        "Attack": 63,
-        "Defense": 80,
-        "Special Attack": 65,
-        "Special Defense": 80
-    },
-    "abilities": [
-        "Torrent"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [0, "Tail Whip"],
-        [0, "Bubble"],
-        [4, "Tail Whip"],
-        [7, "Bubble"],
-        [10, "Withdraw"],
-        [13, "Water Gun"],
-        [19, "Bite"],
-        [25, "Rapid Spin"],
-        [31, "Protect"],
-        [37, "Rain Dance"],
-        [45, "Skull Bash"],
-        [53, "Hydro Pump"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "True",
-    "evolutionLevel": 36,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Water",
+            ""
+        ],
+        "base": {
+            "HP": 59,
+            "Attack": 63,
+            "Defense": 80,
+            "Special Attack": 65,
+            "Special Defense": 80,
+            "Speed": 58
+        },
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [1, "Water Gun"],
+            [1, "Withdraw"],
+            [9, "Rapid Spin"],
+            [12, "Bite"],
+            [15, "Water Pulse"],
+            [20, "Protect"],
+            [25, "Rain Dance"],
+            [30, "Aqua Tail"],
+            [35, "Shell Smash"],
+            [40, "Iron Defense"],
+            [45, "Hydro Pump"],
+            [50, "Skull Bash"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Wartortle", 
+                "level": 36
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 },
+
+
 {
     "id": 9,
     "name": "Blastoise",
-    "type": [
-        "Water",
-        ""
-    ],
-    "base": {
-        "HP": 79,
-        "Attack": 83,
-        "Defense": 100,
-        "Special Attack": 85,
-        "Special Defense": 105
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Water",
+            ""
+        ],
+        "base": {
+            "HP": 79,
+            "Attack": 83,
+            "Defense": 100,
+            "Special Attack": 85,
+            "Special Defense": 105,
+            "Speed": 78
+        },
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Flash Cannon"],
+            [1, "Flash Cannon"],
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [1, "Water Gun"],
+            [1, "Withdraw"],
+            [9, "Rapid Spin"],
+            [12, "Bite"],
+            [15, "Water Pulse"],
+            [20, "Protect"],
+            [25, "Rain Dance"],
+            [30, "Aqua Tail"],
+            [35, "Shell Smash"],
+            [42, "Iron Defense"],
+            [49, "Hydro Pump"],
+            [56, "Skull Bash"],
+            [99, "Hydro Cannon"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions": [],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Blastoise",
+                "item": "Blastoisinite",
+                "type": [
+                    "Water",
+                    ""
+                ],
+                "ability": "Mega Launcher",
+                "HP": 79,
+                "Attack": 103,
+                "Defense": 120,
+                "Special Attack": 135,
+                "Special Defense": 115,
+                "Speed": 78
+            }
+        ]
+    }
+},
+
+
+{   
+    "id": 10,
+    "name": "Caterpie",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            ""
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 30,
+            "Defense": 35,
+            "Special Attack": 20,
+            "Special Defense": 20,
+            "Speed": 45
+        },
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "String Shot"],
+            [9, "Bug Bite"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Metapod", 
+                "level": 7
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 11,
+    "name": "Metapod",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            ""
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 20,
+            "Defense": 55,
+            "Special Attack": 25,
+            "Special Defense": 25,
+            "Speed": 30
+        },
+        "abilities": [
+            "Shed Skin"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Harden"],
+            [1, "Harden"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Butterfree", 
+                "level": 10
+            }
+        ],
+        "hasMegaEvolution": "",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 12,
+    "name": "Butterfree",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 45,
+            "Defense": 50,
+            "Special Attack": 90,
+            "Special Defense": 80,
+            "Speed": 70
+        },
+        "abilities": [
+            "Compound Eyes",
+            "Tinted Lens"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Gust"],
+            [1, "Gust"],
+            [1, "Harden"],
+            [1, "Tackle"],
+            [1, "String Shot"],
+            [1, "Bug Bite"],
+            [4, "Supersonic"],
+            [8, "Confusion"],
+            [12, "Poison Powder"],
+            [12, "Stun Spore"],
+            [12, "Sleep Powder"],
+            [16, "Psybeam"],
+            [20, "Whirlwind"],
+            [24, "Air Slash"],
+            [28, "Safeguard"],
+            [32, "Bug Buzz"],
+            [36, "Tailwind"],
+            [40, "Rage Powder"],
+            [44, "Quiver Dance"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions":[],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 13,
+    "name": "Weedle",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 35,
+            "Defense": 30,
+            "Special Attack": 20,
+            "Special Defense": 20,
+            "Speed": 50
+        },
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Poison Sting"],
+            [1, "String Shot"],
+            [9, "Bug Bite"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Kakuna", 
+                "level": 7
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 14,
+    "name": "Kakuna",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 25,
+            "Defense": 50,
+            "Special Attack": 25,
+            "Special Defense": 25,
+            "Speed": 35
+        },
+        "abilities": [
+            "Shed Skin"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Harden"],
+            [1, "Harden"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Beedrill", 
+                "level": 10
+            }
+        ],
+        "hasMegaEvolution": "",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 15,
+    "name": "Beedrill",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 90,
+            "Defense": 40,
+            "Special Attack": 45,
+            "Special Defense": 80,
+            "Speed": 75
+        },
+        "abilities": [
+            "Swarm",
+            "Sniper"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Twineedle"],
+            [1, "Twineedle"],
+            [1, "Peck"],
+            [13, "Rage"],
+            [16, "Fury Attack"],
+            [19, "Focus Energy"],
+            [22, "Poison Jab"],
+            [25, "Agility"],
+            [28, "Pin Missile"],
+            [31, "Outrage"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions":[],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Beedrill",
+                "item": "Beedrillite",
+                "type": [
+                    "Bug",
+                    "Poison"
+                ],
+                "ability": "Adaptability",
+                "HP": 65,
+                "Attack": 150,
+                "Defense": 40,
+                "Special Attack": 15,
+                "Special Defense": 80,
+                "Speed": 145
+            }
+        ]
+    }
+},
+
+
+{   
+    "id": 16,
+    "name": "Pidgey",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 45,
+            "Defense": 40,
+            "Special Attack": 35,
+            "Special Defense": 35,
+            "Speed": 56
+        },
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [5, "Sand Attack"],
+            [9, "Gust"],
+            [13, "Quick Attack"],
+            [17, "Whirlwind"],
+            [21, "Twister"],
+            [25, "Feather Dance"],
+            [29, "Agility"],
+            [33, "Wing Attack"],
+            [37, "Roost"],
+            [41, "Tailwind"],
+            [45, "Mirror Move"],
+            [49, "Air Slash"],
+            [53, "Hurricane"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Pidgeotto", 
+                "level": 18
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 17,
+    "name": "Pidgeotto",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "base": {
+            "HP": 63,
+            "Attack": 60,
+            "Defense": 55,
+            "Special Attack": 50,
+            "Special Defense": 50,
+            "Speed": 71
+        },
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Sand Attack"],
+            [1, "Gust"],
+            [5, "Sand Attack"],
+            [9, "Gust"],
+            [13, "Quick Attack"],
+            [17, "Whirlwind"],
+            [22, "Twister"],
+            [27, "Feather Dance"],
+            [32, "Agility"],
+            [37, "Wing Attack"],
+            [42, "Roost"],
+            [47, "Tailwind"],
+            [52, "Mirror Move"],
+            [57, "Air Slash"],
+            [62, "Hurricane"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Pidgeot", 
+                "level": 36
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 18,
+    "name": "Pidgeot",
+    "numberOfForms": 1,
+    "normal": {
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "base": {
+            "HP": 83,
+            "Attack": 80,
+            "Defense": 75,
+            "Special Attack": 70,
+            "Special Defense": 70,
+            "Speed": 101
+        },
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Hurricane"],
+            [1, "Tackle"],
+            [1, "Sand Attack"],
+            [1, "Gust"],
+            [1, "Quick Attack"],
+            [5, "Sand Attack"],
+            [9, "Gust"],
+            [13, "Quick Attack"],
+            [17, "Whirlwind"],
+            [22, "Twister"],
+            [27, "Feather Dance"],
+            [32, "Agility"],
+            [38, "Wing Attack"],
+            [44, "Roost"],
+            [50, "Tailwind"],
+            [56, "Mirror Move"],
+            [62, "Air Slash"],
+            [68, "Hurricane"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions":[],
+        "hasMegaEvolution": "True",
+        "megaEvolutions": [
+            {
+                "name": "Mega Pidgeot",
+                "item": "Pidgeotite",
+                "type": [
+                    "Normal",
+                    "Flying"
+                ],
+                "ability": "No Guard",
+                "HP": 83,
+                "Attack": 80,
+                "Defense": 80,
+                "Special Attack": 135,
+                "Special Defense": 80,
+                "Speed": 121
+            }
+        ]
+    }
+},
+
+
+{   
+    "id": 19,
+    "name": "Rattata",
+    "numberOfForms": 2,
+    "Kantonian": {
+        "type": [
+            "Normal",
+            ""
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 56,
+            "Defense": 35,
+            "Special Attack": 25,
+            "Special Defense": 35,
+            "Speed": 72
+        },
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [22, "Crunch"],
+            [25, "Sucker Punch"],
+            [28, "Super Fang"],
+            [31, "Double-Edge"],
+            [34, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp-Multi", 
+                "evolutionTo": "Raticate", 
+                "level": 20
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
     },
-    "abilities": [
-        "Torrent"
-    ],
-    "size": 1,
-    "levelUp": [
-        [0, "Tackle"],
-        [0, "Tail Whip"],
-        [0, "Bubble"],
-        [0, "Withdraw"],
-        [4, "Tail Whip"],
-        [7, "Bubble"],
-        [10, "Withdraw"],
-        [13, "Water Gun"],
-        [19, "Bite"],
-        [25, "Rapid Spin"],
-        [31, "Protect"],
-        [42, "Rain Dance"],
-        [55, "Skull Bash"],
-        [68, "Hydro Pump"],
-        [99, "Blast Burn"]
-    ],
-    "tm": [
-    ],
-    "hasEvolution": "False",
-    "evolutionLevel": -1,
-    "needItemToEvolve": "False",
-    "whatItem": ""
+    "Alolan": {
+        "type": [
+            "Dark",
+            "Normal"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 56,
+            "Defense": 35,
+            "Special Attack": 25,
+            "Special Defense": 35,
+            "Speed": 72
+        },
+        "abilities": [
+            "Gluttony",
+            "Hustle",
+            "Thick Fat"
+        ],
+        "size": 1,
+        "levelUp": [
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [22, "Crunch"],
+            [25, "Sucker Punch"],
+            [28, "Super Fang"],
+            [31, "Double-Edge"],
+            [34, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "True",
+        "evolutions":[
+            {
+                "evolutionType": "LevelUp-Multi", 
+                "evolutionTo": "Raticate", 
+                "level": 20
+            }
+        ],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
+},
+
+
+{   
+    "id": 20,
+    "name": "Raticate",
+    "numberOfForms": 2,
+    "Kantonian": {
+        "type": [
+            "Normal",
+            ""
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 81,
+            "Defense": 60,
+            "Special Attack": 50,
+            "Special Defense": 70,
+            "Speed": 97
+        },
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Scary Face"],
+            [1, "Sword Dance"],
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [1, "Quick Attack"],
+            [1, "Focus Energy"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [24, "Crunch"],
+            [29, "Sucker Punch"],
+            [34, "Super Fang"],
+            [39, "Double-Edge"],
+            [44, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions":[],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    },
+    "Alolan": {
+        "type": [
+            "Dark",
+            "Normal"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 71,
+            "Defense": 70,
+            "Special Attack": 40,
+            "Special Defense": 80,
+            "Speed": 77
+        },
+        "abilities": [
+            "Gluttony",
+            "Hustle",
+            "Thick Fat"
+        ],
+        "size": 1,
+        "levelUp": [
+            ["Evo", "Scary Face"],
+            [1, "Sword Dance"],
+            [1, "Tackle"],
+            [1, "Tail Whip"],
+            [1, "Quick Attack"],
+            [1, "Focus Energy"],
+            [4, "Quick Attack"],
+            [7, "Focus Energy"],
+            [10, "Bite"],
+            [13, "Pursuit"],
+            [16, "Hyper Fang"],
+            [19, "Assurance"],
+            [24, "Crunch"],
+            [29, "Sucker Punch"],
+            [34, "Super Fang"],
+            [39, "Double-Edge"],
+            [44, "Endeavor"]
+        ],
+        "tm": [
+        ],
+        "hasEvolution": "False",
+        "evolutions":[],
+        "hasMegaEvolution": "False",
+        "megaEvolutions": []
+    }
 }
+
+
 ]
