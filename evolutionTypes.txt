@@ -1,0 +1,43 @@
+levelUp:
+
+            {
+                "evolutionType": "LevelUp", 
+                "evolutionTo": "Arbok",
+                "id": 24,  
+                "level": 22
+            }
+
+levelUp-Multi:
+
+            {
+                "evolutionType": "LevelUp-Multi", 
+                "evolutionTo": "Raticate", 
+                "form": "Alolan", 
+                "id": 20, 
+                "level": 20
+            }
+
+Item:
+
+            {
+                "evolutionType": "Item", 
+                "evolutionTo": "Raichu",
+                "id": 26,  
+                "items":{
+                    "held": "",
+                    "need": "Thunder Stone"
+                }
+            }
+
+Item-Multi:
+
+            {
+                "evolutionType": "Item-Multi", 
+                "evolutionTo": "Raichu",
+                "form":"Kantonian",
+                "id": 26,  
+                "items":{
+                    "held": "",
+                    "need": "Thunder Stone"
+                }
+            }

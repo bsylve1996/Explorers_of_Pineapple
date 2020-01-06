@@ -94,7 +94,8 @@ Example 1(TM leave empty for now)
         "evolutions":[
             {
                 "evolutionType": "LevelUp", 
-                "evolutionTo": "Ivysaur", 
+                "evolutionTo": "Ivysaur",
+                "id": 2,  
                 "level": 16
             }
         ],
@@ -219,6 +220,8 @@ Example 3(Multi form)
             {
                 "evolutionType": "LevelUp-Multi", 
                 "evolutionTo": "Raticate", 
+                "form": "Kantonian",
+                "id": 20, 
                 "level": 20
             }
         ],
@@ -266,6 +269,8 @@ Example 3(Multi form)
             {
                 "evolutionType": "LevelUp-Multi", 
                 "evolutionTo": "Raticate", 
+                "form": "Alolan", 
+                "id": 20, 
                 "level": 20
             }
         ],
